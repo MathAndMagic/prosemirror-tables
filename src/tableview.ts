@@ -71,7 +71,7 @@ export function updateColumnsOnResize(
       if (!hasWidth) fixedWidth = false;
       if (!nextDOM) {
         const col = document.createElement('col');
-        col.style.width = cssWidth;
+        col.style.width = '153.2px';
         colgroup.appendChild(col);
       } else {
         if (nextDOM.style.width != cssWidth) {
